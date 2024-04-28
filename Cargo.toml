@@ -1,0 +1,12 @@
+[package]
+name = "image_post_practice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"]}
+log = "0.4"
+rocket-multipart-form-data = "0.10.7"
+rand = "0.8.5"
